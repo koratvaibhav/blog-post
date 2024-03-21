@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+  :root {
+    --main-bg-color: orange;
+    --font1: 'Pacifico', cursive;
+    --font2: 'Satisfy', cursive;
+    --font3: 'Signika Negative', sans-serif;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+.font3{
+  font-family: var(--font3);
+}
+.center{
+  text-align: center;
+}
+  .max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.mx-1{
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.btn{
+  padding: 0 12px;
+border: 2px solid black;
+border-radius: 8px;
+font-family: var(--font1);
+font-size: 13px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  color:white ;
+  background-color:var(--main-bg-color);
+}
+
+.form-input{
+  padding: 3px 15px;
+font-size: 13px;
+border: 2px solid black;
+border-radius: 8px;
+margin: 0 5px;
+font-family: var(--font1);
+}
+.form-box input,textarea {
+  width: 40vw;
+  padding: 2px 8px;
+  margin: 7px 0;
+  font-size: 18px;
+  border-radius: 8px;
+border: 2px solid var(--main-bg-color);
+}

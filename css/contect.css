@@ -1,0 +1,23 @@
+.contect-content {
+    height: 100vh;
+    display: block;
+    margin-top: 18px;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contect-content::after {
+    content: "";
+    background-image: url('../img/tree.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.20;
+    border-radius: 12px;
+    z-index: -1;
+}
+

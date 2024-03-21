@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font2);
+    margin-top:18px ;
+    background-color: cornflowerblue;
+    /* height: 60px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 30px;
+    display: flex;
+}
+.nav-left span a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 75px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font1);
+}
+
+ .nav-left ul li a{ 
+    text-decoration: none;
+    color: black; 
+    
+ }
+ .nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+     margin-top: 18px; ; 
+    padding: 3px;
+   
+    position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url('../img/tree.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%; 
+    height: inherit;
+    opacity: 0.20;
+    border-radius: 12px;
+}
+.content-left{
+    font-family: var(--font3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+.content-right img{
+    height: 45vh;
+    /* width: 185px; */
+    border: 2px solid black;
+    border-radius: 315px;
+    padding: 17px;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-articles{
+    padding-top:12px ;
+    background-color: rgb(224, 248, 201,0.5);
+    margin-top: 12px;
+    position: relative;
+    margin-bottom: 12px;
+}
+.year-box{
+    position: absolute;
+    right: 122px;
+    top: 30px;
+    width: 100px;
+    height: 123px;
+    font-size: 18px;
+    /* background-color: green; */
+}
+.year-box div{
+    margin: 12px 0;
+}
+.home-article{
+display: flex;
+margin: 26px;
+}
+.home-article img{
+    width:250px;
+}
+.home-article-content{
+    align-self:center;
+    padding: 0 20px;
+}
+.home-article-content a{
+text-decoration: none;
+color: black;
+}
+.footer {
+     background-color:rgba(131, 55, 55, 0.925);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+.footer a{
+    color:white;
+}
